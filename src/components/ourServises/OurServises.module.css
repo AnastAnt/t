@@ -1,0 +1,120 @@
+.container{
+    padding: 60px 50px;
+        width: 480px;
+        height: 1795px;
+        background: linear-gradient(180deg, #828cde 0%, #6d31d0 100%);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+}
+
+.title{
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border-bottom: 4px solid #fdbfa3;
+    width: 380px;
+    padding-bottom: 10px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.listItem{
+    border-radius: 20px;
+    width: 380px;
+    height: 515px;
+    box-shadow: 0 14px 23px 0 rgba(28, 37, 44, 0.08);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    
+}
+
+.img{
+    border-radius: 19px 19px 19px 0;
+        width: 380px;
+        height: 260px;
+       
+}
+
+.titleList{
+    font-family: "Avenir Next", sans-serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.14286;
+        text-transform: uppercase;
+        text-align: center;
+        color: #434364;
+}
+
+.text{
+    font-family: "Avenir Next", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #434364;
+        width: 320px;
+        height: auto;
+}
+
+.btn{
+    border-radius: 88px;
+        padding: 16px 22px;
+        width: 200px;
+        height: 48px;
+        box-shadow: 0 4px 35px 0 rgba(255, 185, 175, 0.3);
+        background: linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%);
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: center;
+        color: #6d31d0;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.btn:hover{
+    box-shadow: 0 4px 35px 0 rgba(255, 185, 175, 0.3);
+    background: linear-gradient(90deg, #6d31d0 0%, #ab80ef 100%);
+    color: #ffdb80;
+    border: 2px solid #ffdb80;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1158px){
+.container{
+padding: 60px 94px;
+    width: 768px;
+    height: 1784px;
+}
+
+}
+
+
+ @media screen and (min-width: 1158px){
+.container{
+padding: 80px 110px;
+    width: 1440px;
+    height: 785px;
+}
+
+ }
